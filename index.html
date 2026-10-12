@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nook Studio & Co. — Thoughtful Software for Intentional Living</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..600;1,400..600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #050505;
+      color: #e5e5e5;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      padding: 4rem 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+      -webkit-font-smoothing: antialiased;
+    }
+    header {
+      margin-bottom: 3.5rem;
+    }
+    .brand-title {
+      font-family: 'EB Garamond', serif;
+      font-size: 2.75rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      color: #ffffff;
+      margin-bottom: 0.5rem;
+    }
+    .brand-tagline {
+      font-family: 'EB Garamond', serif;
+      font-style: italic;
+      font-size: 1.25rem;
+      color: #a3a3a3;
+    }
+    .divider {
+      width: 40px;
+      height: 1px;
+      background-color: #333333;
+      margin: 2rem 0;
+    }
+    .philosophy {
+      line-height: 1.75;
+      color: #d4d4d4;
+      font-size: 1.05rem;
+    }
+    section {
+      margin-top: 3.5rem;
+      margin-bottom: 4rem;
+    }
+    .products-title {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #737373;
+      margin-bottom: 1.5rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    @media (min-width: 600px) {
+      .grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    .card {
+      background: #0f0f0f;
+      border: 1px solid #1a1a1a;
+      border-radius: 12px;
+      padding: 1.5rem;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      transition: border-color 0.2s ease, transform 0.2s ease;
+    }
+    .card:hover {
+      border-color: #404040;
+      transform: translateY(-2px);
+    }
+    .card-title {
+      font-family: 'EB Garamond', serif;
+      font-size: 1.4rem;
+      color: #ffffff;
+      margin-bottom: 0.25rem;
+    }
+    .card-tagline {
+      font-family: 'EB Garamond', serif;
+      font-style: italic;
+      font-size: 0.95rem;
+      color: #a3a3a3;
+      margin-bottom: 0.75rem;
+    }
+    .card-desc {
+      font-size: 0.9rem;
+      color: #737373;
+      line-height: 1.5;
+    }
+    footer {
+      border-top: 1px solid #1a1a1a;
+      padding-top: 2rem;
+      font-size: 0.875rem;
+      color: #737373;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    footer a {
+      color: #a3a3a3;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+    <header>
+      <h1 class="brand-title">Nook Studio & Co.</h1>
+      <p class="brand-tagline">Thoughtful software for intentional living.</p>
+      <div class="divider"></div>
+      <p class="philosophy">
+        Nook Studio & Co. is an independent studio that crafts minimal, neurodivergence-friendly software. Built at the intersection of psychology and calm aesthetic, we prioritize emotional safety over intrusive engagement loops. Our design philosophy is a deliberate rebellion against noise and disconnection, in an ultra-fast world.
+      </p>
+    </header>
+
+    <section>
+      <h2 class="products-title">App Suite</h2>
+      <div class="grid">
+        <a href="https://nook-games.vercel.app" class="card" target="_blank" rel="noopener">
+          <h3 class="card-title">nook games</h3>
+          <p class="card-tagline">play without the pull.</p>
+          <p class="card-desc">20 classic logic, strategy, sequence, and word puzzles redesigned for unhurried, intentional screen use.</p>
+        </a>
+        <a href="https://nook-your-pocket-sanctuary.vercel.app" class="card" target="_blank" rel="noopener">
+          <h3 class="card-title">nook: low stimulation calm</h3>
+          <p class="card-tagline">your pocket sanctuary.</p>
+          <p class="card-desc">An offline space for reflection prompts, unhurried brain dumps, focus timers, and ambient soundscapes.</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Nook Studio & Co.</strong> — Official Developer Profile</p>
+    <p>Developer Contact: <a href="mailto:brandsbynook@gmail.com">brandsbynook@gmail.com</a></p>
+  </footer>
+
+</body>
+</html>
